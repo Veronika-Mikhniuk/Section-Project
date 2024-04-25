@@ -5,11 +5,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .container{
     width: 1206px;
     border-left: 0.15px solid #B7B7B7;
     border-right: 0.15px solid #B7B7B7;
-    margin: auto; /* Расположили контейнер посередине страницы */
+    margin: auto;
     height: 100vh;
 }
 
@@ -17,7 +18,7 @@
     padding: 100px 30px 100px 30px;
 }
 
-.work-with-us__tittle{
+.work-with-us__title{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -26,13 +27,9 @@
     
     width: 950px;
     height: 50px;
-    margin: auto; /* Выровняли блок p посередине контейнера*/
+    margin: auto;
     display: flex;
-    justify-content: center; /* Расположили текст посередине блока p */
-}
-
-.tittle-underlined {
-text-decoration: underline;
+    justify-content: center;
 }
 
 .work-with-us__wrapper {
@@ -41,13 +38,14 @@ text-decoration: underline;
     align-items: center;
     justify-content: space-between;
 }
+
 .work-with-us__point {
     width: 362px;
     height: 186px;
     margin-top: 60px;
 }
 
-.point__tittle {
+.point__title {
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Montserrat';
